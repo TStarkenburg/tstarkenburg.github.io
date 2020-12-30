@@ -91,6 +91,7 @@ font-weight: bold;
 background: url('graphics/ORCID.png') no-repeat;
 background-size: cover;
 display: inline-block;
+}
 
 .icon-ads {
 	width: 96px;
