@@ -88,7 +88,7 @@ body a:hover {
 width: 144px;
 height: 48px;
 font-weight: bold;
-background: url('graphics/ORCID.png') no-repeat;
+background: url('graphics/icon-ORCID.png') no-repeat;
 background-size: cover;
 display: inline-block;
 }
