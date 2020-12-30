@@ -84,6 +84,14 @@ body a:hover {
 	background: url('graphics/google_scholar_icon.png') no-repeat;
 	background-size: cover;
 }*/
+.icon-orcid {
+width: 144px;
+height: 48px;
+font-weight: bold;
+background: url('graphics/ORCID.png') no-repeat;
+background-size: cover;
+display: inline-block;
+
 .icon-ads {
 	width: 96px;
 	height: 48px;
