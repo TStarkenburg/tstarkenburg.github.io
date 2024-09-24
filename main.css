@@ -73,8 +73,8 @@ body a:hover {
 	justify-content: flex-end;
 }
 .icon-scholar {
-	width: 48px;
-	height: 48px;
+	width: 32px;
+	height: 32px;
 	font-weight: bold;
 	background: url('graphics/google_scholar_icon_white.png') no-repeat;
 	background-size: cover;
@@ -92,10 +92,23 @@ background: url('graphics/icon-ORCID.png') no-repeat;
 background-size: cover;
 display: inline-block;
 }
+}
+.icon-github:hover {
+    background: url('graphics/github_icon_hover.png') no-repeat;
+    background-size: cover;
+}
+.icon-github {
+    width: 32px;
+    height: 32px;
+    font-weight: bold;
+    background: url('graphics/github_icon.png') no-repeat;
+    background-size: cover;
+    display: inline-block;
+}
 
 .icon-ads {
-	width: 96px;
-	height: 48px;
+	width: 64px;
+	height: 32px;
 	font-weight: bold;
 	background: url('graphics/icon_ads.png') no-repeat;
 	background-size: cover;
@@ -268,7 +281,37 @@ color: rgba(0, 0, 0, 1);
     color: var(--bg-color-0);
     font-weight: 600;
 }*/
-
+.grid {
+    width:100%;
+    max-width: 940px;
+    margin: 50px auto;
+}
+.grid-item {
+    width:300px;
+    float:left;
+}
+.btn-outline-primary {
+    color: #fff;
+    border-color: #fff;
+    outline: none !important;
+    box-shadow: none !important;
+}
+.btn-outline-primary:hover, .btn-outline-primary:active {
+    color: #000 !important;
+    background-color: #fff !important;
+    border-color: #fff !important;
+}
+.btn-outline-secondary {
+    color: #000;
+    border-color: #000;
+    outline: none !important;
+    box-shadow: none !important;
+}
+.btn-outline-secondary:hover, .btn-outline-secondary:active {
+    color: #fff !important;
+    background-color: #000 !important;
+    border-color: #000 !important;
+}
 
 @media (max-width: 575.98px), (max-height: 375.98px) {
 	
