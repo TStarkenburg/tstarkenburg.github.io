@@ -130,6 +130,14 @@ display: inline-block;
     background-size: cover;
     display: inline-block;
 }
+.icon-skai {
+    width: 173px;
+    height: 52px;
+    font-weight: bold;
+    background: url('graphics/SkAI_Formal_Landscape.png') no-repeat;
+    background-size: cover;
+    display: inline-block;
+}
 .icon-twitter {
 width: 32px;
 height: 32px;
